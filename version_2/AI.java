@@ -3,13 +3,13 @@
  *
  * STUDENTS: Nothing to change here.
  *
- * @author INSERT YOUR NAME(S) HERE
+ * @author Pervej ahamed joy
  */
 
 public interface AI {
     /**
      * Make a move given the current state of the board.
-     * 
+     *
      * @precondition There exists an open space on the board.
      */
     public Move chooseMove(Board board);
